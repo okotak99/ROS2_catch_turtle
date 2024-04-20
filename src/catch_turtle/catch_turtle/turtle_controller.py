@@ -6,9 +6,9 @@ from rclpy.node import Node
 from turtlesim.msg import Pose
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Empty
-from my_first_package_msgs.msg import Turtle
-from my_first_package_msgs.msg import TurtleArray
-from my_first_package_msgs.srv import CatchTurtle
+from catch_turtle_msgs.srv import Turtle
+from catch_turtle_msgs.srv import TurtleArray
+from catch_turtle_msgs.srv import CatchTurtle
 
 
 class TurtleControllerNode(Node): 

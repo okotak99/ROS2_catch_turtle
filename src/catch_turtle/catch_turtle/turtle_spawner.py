@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import random
 import math
 from functools import partial
@@ -7,9 +6,9 @@ from rclpy.node import Node
 from turtlesim.srv import Spawn
 from std_srvs.srv import Empty
 from turtlesim.srv import Kill
-from my_first_package_msgs.msg import Turtle
-from my_first_package_msgs.msg import TurtleArray
-from my_first_package_msgs.srv import CatchTurtle
+from catch_turtle_msgs.srv import Turtle
+from catch_turtle_msgs.srv import TurtleArray
+from catch_turtle_msgs.srv import CatchTurtle
 
 
 random.seed(1)
