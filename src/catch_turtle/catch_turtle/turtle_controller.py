@@ -6,8 +6,8 @@ from rclpy.node import Node
 from turtlesim.msg import Pose
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Empty
-from catch_turtle_msgs.srv import Turtle
-from catch_turtle_msgs.srv import TurtleArray
+from catch_turtle_msgs.msg import Turtle
+from catch_turtle_msgs.msg import TurtleArray
 from catch_turtle_msgs.srv import CatchTurtle
 
 

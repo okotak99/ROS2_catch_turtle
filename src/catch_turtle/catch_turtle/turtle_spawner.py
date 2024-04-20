@@ -6,8 +6,8 @@ from rclpy.node import Node
 from turtlesim.srv import Spawn
 from std_srvs.srv import Empty
 from turtlesim.srv import Kill
-from catch_turtle_msgs.srv import Turtle
-from catch_turtle_msgs.srv import TurtleArray
+from catch_turtle_msgs.msg import Turtle
+from catch_turtle_msgs.msg import TurtleArray
 from catch_turtle_msgs.srv import CatchTurtle
 
 
